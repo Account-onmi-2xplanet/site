@@ -3,10 +3,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--     <link rel=¨stylesheet¨ type=¨text/css¨ href=¨syle.css¨> -->
+<link rel="stylesheet" href="crosswordpuzzlegenerator.css">
+<link rel="shortcut icon" 
+      href="https://mitchum.blog/wp-content/uploads/2019/05/favicon.png" />
     <title>Data aquisition</title>
 </head>
+<style>
+    table, th, td {
+      border:1px solid black;
+    }
+ </style>
 <body>
     <h1>Data aquisition 2</h1>
     <a href="./files/bla.csv"> CSV file</a>
+    <p></p>
+    <table>
+        <tr>
+            <th>company</th>
+            <th>contact</th>
+        </tr>
+        <tr>
+            <th>Cia A</th>
+            <th>Joaquim</th>
+        </tr>
+        <tr>
+            <th>CIA b</th>
+            <th>jose</th>
+        </tr>
+    </table>
+    <main>
+        <h3>Crossword Puzzle Generator</h3>
+        <h5>
+            <a href="https://mitchum.blog/building-a-crossword-puzzle-generator-with-javascript/">Tutorial</a> |
+          <a href="https://github.com/mmaynar1/games/tree/master/crossword-puzzle-generator">Github</a> |
+          <a href="https://mitchum.blog/subscribe/">Something Really Good</a>
+        </h5>
+        <div id="startButton"> 
+            <button class="button" type="button" onclick="createCrossWordPuzzle()">Generate Crossword Puzzle</button>
+        </div>
+        <div id="grid" class="grid"></div>
+      </main>   
+     <script src="words.js"></script>
+     <script src="word.js"></script>
+     <script src="crosswordpuzzle.js"></script>
+     <script src="crosswordpuzzlegenerator.js"></script>
+ <!--    <div id="puzzle_container">
+        <table id="puzzle">
+        </table>
+    </div>
+    
+    <div id="hints_container">
+        <h3>Vertical</h3>
+            <div id="vertical_hints_container"></div>
+        <h3>Horizontal</h3>
+            <div id="horizontal_hints_container"></div>
+    </div>
+    
+    <div id="buttons_container">
+        <button id="clear_all">Clear All</button>
+        <button id="check">Check</button>
+        <button id="solve">Solve</button>
+        <button id="clue">Clue</button>
+    </div> -->
+    
+<!--     <p>
+    <div class="container">
+        <button class="btn" id="btnCreate">Create</button>
+        <button class="btn" id="btnPlay">Play</button>
+        <br/><br/>  
+      
+        <div class="center crossword" id="crossword"></div><br/>
+      
+        <div class="center">
+      
+          <div class="line">
+            <input class="word" type="text" value="Tucan" />
+            <input class="clue" value="A tropical bird with a large beak" />
+          </div>
+      
+          <div class="line">
+            <input class="word" type="text" value="Dingo" />
+            <input class="clue" value="This free-ranging dog is at home in the outback." />
+          </div>
+      
+          <div class="line">
+            <input class="word" type="text" value="Dolphin" />
+            <input class="clue" value="A friendly finned non-fish" />
+          </div>
+      
+          <div class="line">
+            <input class="word" type="text" value="Pig"/>
+            <input class="clue" value="Bosses of the farm in Orwell's world" />
+          </div>
+      
+          <div class="line">
+            <input class="word" type="text" value="Kangaroo"/>
+            <input class="clue" value="Boxing champions of the outback" />
+          </div>
+      
+          <div class="line">
+            <input class="word" type="text" value="Octopus"/>
+            <input class="clue" value="Eight legged sea creature" />
+          </div>
+      
+          <div class="line">
+            <input class="word" type="text" value="Hamster"/>
+            <input class="clue" value="Furry rodent whose teeth never stop growing" />
+          </div>
+      
+          <div class="line">
+            <input class="word" type="text" value="Alligator"/>
+            <input class="clue" value="Dating back further than the T-rex, this reptile is a modern day dinosaur" />
+          </div>
+      
+          <div class="line">
+            <input class="word" type="text" value="Ostrich"/>
+            <input class="clue" value="Flightless bird not know for its people skills" />
+          </div>
+      
+          <div class="line">
+            <input class="word" type="text" value="Koala"/>
+            <input class="clue" value="Friendly version of the infamous Australian tourist terrorizing tree-dwellers" />
+          </div>
+      
+          <div class="line">
+            <input class="word" type="text" value="Mouse"/>
+            <input class="clue" value="This poor animal is often the victim of feline aggression and human experimentation"/>
+          </div>
+      
+          <div class="line">
+            <input class="word" type="text" value="Antelope"/>
+            <input class="clue" value="The victim of every lion documentary clip you've ever seen." />
+          </div>
+      
+        </div>
+      </div>
+    </p>
+      <script src="javascript.js"></script> -->
+
 </body>
 </html>
